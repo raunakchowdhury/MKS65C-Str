@@ -1,4 +1,5 @@
 all: mystr.o tester.o
+	gcc tester.o
 	./a.out
 
 mystr.o: mystr.c mystr.h
